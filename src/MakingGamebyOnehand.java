@@ -1,8 +1,8 @@
 public class MakingGamebyOnehand {
     public static void main(String[] args) {
-        String card1 = "box 1";
-        String card0 = "box 2";
-        String card2 = "box 3";
+        String card1 = "box A";
+        String card0 = "box B";
+        String card2 = "box C";
         System.out.println(card1);
         System.out.println(card0);
         System.out.println(card2);
