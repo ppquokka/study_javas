@@ -13,6 +13,10 @@ public class pollsWithoutMethod{
                                    {"①전혀 아니다","②아니다","③그렇다","④매우 그렇다"}
                                   };
                         for (int first=0; first < Question.length; first = first + 1){
+                            int alpha =3;
+                            for (int beta = 0; beta < alpha; beta = beta + 1) {
+                                System.out.println(beta);
+                            }
                             for (int second=0; second < Question[first].length; second = first + 1){
                                 System.out.println(Question[first][second]); 
                             }  
