@@ -11,7 +11,7 @@ public class PollsWithoutMethod2 {
         System.out.println(sun+moon);
        
         String answer = "";
-        String[0] answers = {"", "", "", ""};
+        String[] answers = {"", "", "", ""};
 
         System.out.println("1. 문항");
         System.out.println("(1)답항" + "(2)답항" + "(3)답항" + "(4)답항");
@@ -35,8 +35,7 @@ public class PollsWithoutMethod2 {
 
         for (int first=0; first < answers.length; first=first+1) {
             System.out.print(answers[first]+", ");
-        break;
-        System.out.println();}
+        }
         // return 0;
     }
 }
