@@ -5,8 +5,7 @@ public class LoopWithMark {
         int second = 5;        
         for (int first = 1; first < second; first = first + 1){
             System.out.println("for" +", " + first);
-        }
-        
+        }        
         System.out.println();
 
     }
