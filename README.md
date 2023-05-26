@@ -9,4 +9,5 @@
 | if 문 | If.java | 컨디션 안의 답이 true일 경우 출 |  |
 | data type casting (데이터 타입 변환) | [TypeCasting.java](https://github.com/ppquokka/study_javas/blob/master/src/TypeCasting.java) | 데이터 타입을 변경 | --- |
 | If | [Ifs java](./src/Ifs.java) | 조건에 따라 분기 | |
+| Break | [Breaks.java](./src/Breaks.java) | 루프 탈출 문법 ||
 ## JAVA 연습문제

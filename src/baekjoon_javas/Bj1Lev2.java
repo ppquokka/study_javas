@@ -1,3 +1,4 @@
+package baekjoon_javas;
 public class Bj1Lev2 {
     public class Main {
         public static void main(String[] args) {
