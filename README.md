@@ -10,4 +10,5 @@
 | data type casting (데이터 타입 변환) | [TypeCasting.java](https://github.com/ppquokka/study_javas/blob/master/src/TypeCasting.java) | 데이터 타입을 변경 | --- |
 | If | [Ifs java](./src/Ifs.java) | 조건에 따라 분기 | |
 | Break | [Breaks.java](./src/Breaks.java) | 루프 탈출 문법 ||
+| For 문 | [CasherForV1.java](./src/cases/CasherForV1.java) | 반복 횟수가 정해져 있는 경우의 반복 작업 | 'CasherForV2.java' UpDate 예정 |
 ## JAVA 연습문제
