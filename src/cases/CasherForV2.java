@@ -1,4 +1,5 @@
 package cases;
+import java.util.Scanner;
 
 public class CasherForV2 {
     public static void main(String[] args) {
@@ -6,6 +7,12 @@ public class CasherForV2 {
         // 3.100원 이하로 입력 제한, 이상 시 0원 적용
         try {
             System.out.println("--- 계산 시작 ---");
+                int[] buckets;  //변수 타입 및 변수 이름 선언
+                buckets = new int[5];   //변수 수 선언
+                buckets[0] = 1;   //변수의 첫번째 요소, 즉 "1번째 가격 :""
+            for(int buckets[0]; first < 5; first = first +1)
+            System.out.println("1 번째 가격 : "+ bucket_1);  // 버킷 1개의 가격을 반복 출력: for문
+
             int bucket_1 = 40;
             int bucket_2 = 140;
             int bucket_3 = 5;
