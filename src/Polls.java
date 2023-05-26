@@ -7,7 +7,7 @@ public class Polls {
             Scanner myObj = new Scanner(System.in);
             System.out.println("선택에 따라 안내들을 보여드립니다.");
             boolean loops = true;
-            While (loops) {
+            while (loops) {
                 System.out.println("(E)xit : 종료, (P)oll : 설문 시작, (S)tatistic: 설문 통계");
                 System.out.println("선택 입력 :");
                 answer = myObj.nextLine();
