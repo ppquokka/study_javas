@@ -53,11 +53,11 @@ public class MethodBasics {  //내부의 것을 사용하려고 함
             int y = 0;
             // y = x + 1; // 변수에 + 1
             // y = F(x);
-            MethodBasics methodBasics = new MethodBasics();
+            MethodBasicsV2 methodBasics = new MethodBasicsV2();
             y = methodBasics.F(x);
             
             y = y + 1; // 변수에 + 1    // 영역을 벗어나면 해당 영역의 변수를 인식 
-            MethodBasics methodBasics_first = new MethodBasics();   //새로운 class생성. 기능상으로는 둘다 clone. 기능은 다름
+            MethodBasicsV2 methodBasics_first = new MethodBasicsV2();   //새로운 class생성. 기능상으로는 둘다 clone. 기능은 다름
                    //재활용이 가능하고 간편하다 / args :String[0]@9                                                   
             y = methodBasics_first.F(y);  // F(0)
             y = methodBasics_first.F(y);  // F(0)
