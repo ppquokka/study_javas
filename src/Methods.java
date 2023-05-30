@@ -27,11 +27,25 @@ public class Methods {
         // - 마무리(=메인)에서 나온 결과값은 17이어야 한다
         try {
             int first = 1;
-            int second = 0;   // second = first + second = F(first)
-            Methods third = new Methods();
-            second = third.add(first,second);
-            second = second + 1;
-
+            int second = 1;   // second = first + second = F(first)
+            Methods methods = new Methods();
+            int result = methods.add(first, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            result = methods.add(result, second);
+            System.out.println(result);
         } catch (Exception e) {
             // TODO: handle exception
         } System.out.println();
