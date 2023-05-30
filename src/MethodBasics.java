@@ -1,4 +1,4 @@
-public class MethodBasics {
+/*public class MethodBasics {
     /*  // class는 function의 모임. 'public static' 펑션과 동급으로 만들어야 함
     <access_modifier> <return_type> <method_name>( list_of_parameters)
     {
@@ -7,7 +7,7 @@ public class MethodBasics {
 
     // f(x) = x + 1  → 숫자의 결과로 나옴  | 결국 f(x) → 숫자결과
     // x에 +1 
-    /*public int F(int x)   // 들어오는 data type은 return전에 들어감
+    /*public int F(int x)   //x=0,  y=0// 들어오는 data type은 return전에 들어감
     {                                    
         int result = x + 1;
         return result;   //return은 문자열, 묶음 등의 결과값을 브레이스{}밖으로 던져줌
@@ -30,24 +30,47 @@ public class MethodBasics {
                                         //'methodBasics'의 변수 type은 class다.  ∴ class 자체가 data type이 된다
                                         // class에 function넣는 이유: 데이터를 얼마나 잘 가공해서 던져 줄 수 있는가
                                         //class는 data type이다. 
-            y = y + 1;   //변수에 +1
+            y = y + 1;   //변수에 +1.  변수의 모양만 달라짐.
+            MethodBasics methodBasics_first = new MethodBasics();                            
+            y = methodBasics_first.F(0);  // F(0) //변수의 값이 가는거지 변수가 가는게 아니다.
+            y = methodBasics_first.F(y);    // F(0) */
+
+
+public class MethodBasics {  //내부의 것을 사용하려고 함
+                // <access_modifier> <return_type> <method_name>( list_of_parameters)
+                // {
+                // //body
+                // }
+                // x에 +1
+    public int F(int x) // x = 0
+    {
+        int result = x + 1;
+        return result;
+     }
+     public static void main(String[] args) {  //String은 class다 
+        try {
+            int x = 4;
+            int y = 0;
+            // y = x + 1; // 변수에 + 1
+            // y = F(x);
+            MethodBasics methodBasics = new MethodBasics();
+            y = methodBasics.F(x);
+            
+            y = y + 1; // 변수에 + 1    // 영역을 벗어나면 해당 영역의 변수를 인식 
+            MethodBasics methodBasics_first = new MethodBasics();   //새로운 class생성. 기능상으로는 둘다 clone. 기능은 다름
+                   //재활용이 가능하고 간편하다 / args :String[0]@9                                                   
+            y = methodBasics_first.F(y);  // F(0)
+            y = methodBasics_first.F(y);  // F(0)
+            
+            // frame work는 유지보수가 매우 간편하다
+
         } catch (Exception e) {
-            // TODO: handle exception
+        // TODO: handle exception
         }
         System.out.println();
         // return 0;
-    }*/
-    public int f(int y) {
-        int end = y + 1;
-        return end;
-
     }
-    public static void main(String[] args) {
-        try {
-            
-        } catch (Exception e) {
-            // TODO: handle exception
-        }
-    }
-    
 }
+
+
+
