@@ -3,6 +3,8 @@ public class GitTemplates {
         try {
             int first = 0;
             first = first + 1;
+            int second = 1;
+            second = first + 1;
             
         } catch (Exception e) {
             // TODO: handle exception
