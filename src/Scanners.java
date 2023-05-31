@@ -3,6 +3,7 @@ public class Scanners {
     public static void main(String[] args) {
         // 입력을 받는 준비. 
         Scanner myObj = new Scanner(System.in);
+        // 이 펑션이 끝나는 부분에 close선언 필요
         // 펑션을 사용한다 → 인스턴스 화'new' → data type이 뭔지확인 →  
         // Create a Scanner object
         // System.out.println("Enter username");
@@ -16,6 +17,7 @@ public class Scanners {
         first = myObj.nextInt();
         second = myObj.nextInt();
         System.out.println(first +", "+second);
+        myObj.close();
         // return 0;
     }    
 }
