@@ -61,13 +61,14 @@ public class LoopForEachs_0609 {
             
             /*묶여있는 array. arrayList 사용가능
             class이기때문에 펑션으로 가져와야한다 */
-            for(HashMap<String, String> car:carList){
+            for(HashMap<String, String> car:carList){       
                 System.out.println(car.get("CarCompany")+","+car.get("CarName")+","+car.get("Year"));
                 // System.out.println(car.get("CarCompany"));
                 // System.out.println(car.get("CarName"));
                 // System.out.println(car.get("Year"));
              /* System.out.println(car.get("CarCompany")+car.get("CarName")+car.get("Year"));
-                이걸 프린트하면        */
+                이걸 프린트하면        
+              * carlist는....   car는....  */
             }
             System.out.println();
         } catch (Exception e) {

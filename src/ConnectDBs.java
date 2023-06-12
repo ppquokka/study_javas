@@ -76,17 +76,21 @@ public static void main(String[] args) {
                 "('"+companyId+"','"+Company+"')" ;
         */
 
-        String Company_ID = "CAR-01 ";
-        String Company = "페라리 ";
+        /*  에러나서 계속 다시 해봐야됌!!!!!!!!!!!!!!!!!!!
+        String updateCompany_ID = "CAR-01 ";
+        String updateCompany = "페라리 ";
         query = "UPDATE factorys " +
-                "SET " +
-                "Company = '페라리' " +
-                "WHERE " +
-                "Company_ID = 'CAR-01'" ;
+                "SET COMPANY = 'updateCompany' " +
+                "WHERE Company_ID = 'updateCompany_ID'" ;
+        count = statement.executeUpdate(query);  
 
+        String deleteCompany_ID = "CAR-01 ";
+        String deleteCompany = "페라리 ";
         query = "DELETE FROM factorys " +
                 "WHERE " +
                 "Company_ID = 'CAR-01' " ;
+        count = statement.executeUpdate(query);
+         */
 
 
  
