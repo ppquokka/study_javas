@@ -1,5 +1,7 @@
 import java.sql.*;
 
+import cars.AnyStatements_0612;
+
 public class ConnectDBsWithMethodRe_0612 {
     public static void main(String[] args) {
         try {
@@ -15,9 +17,9 @@ public class ConnectDBsWithMethodRe_0612 {
             // - query Edit
             Statement statement = connection.createStatement();    //createStatemen 현업에선 이거안씀
             String query = "SELECT * FROM factorys";
-            AnyStatements anyStatements = new AnyStatements();
+            AnyStatements_0612 anyStatements = new AnyStatements_0612();
             ResultSet resultSet = anyStatements.selectStatement(statement, query);                
-            }
+            
             while (resultSet.next()) {
                 System.out.println(resultSet.getString("COMPANY_ID") + resultSet.getString("COMPANY"));
             }
@@ -96,6 +98,7 @@ public class ConnectDBsWithMethod {
             VALUE 
             ('CAR-01', 'AUDI');
             */
+            /*
             String companyId = "CAR-01";
             String company = "AUDI" ;
             query = "INSERT INTO factorys " +
@@ -111,6 +114,4 @@ public class ConnectDBsWithMethod {
         }
         System.out.println();
     }
-} 
- *
- *  */
+} */
