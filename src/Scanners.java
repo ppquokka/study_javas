@@ -19,5 +19,9 @@ public class Scanners {
         System.out.println(first +", "+second);
         myObj.close();
         // return 0;
+    }
+
+    public String nextLine() {
+        return null;
     }    
 }
