@@ -101,7 +101,7 @@ public class SurveysApp_230616 {
                          * R1은 응답자. 설문자에서 해당하는 내용을다시 해쉬맵에 담아주는 역할이 필요
                            - 그럼 응답자에 대한 해쉬맵을 만듦(누구를 선택했다는 것만 알면됨:변수) 
                         */
-                int result = stetement.executeUpdate(queryA);
+                int result = statement.executeUpdate(queryA);
                         
                 number = number + 1;
             }
